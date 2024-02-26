@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Feedback</title>
+    <style>
+        body {
+            background-color: rgb(30, 154, 232);
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        h1 {
+            color: blue;
+        }
+        textarea {
+            width: 80%;
+            height: 150px;
+            padding: 12px 20px;
+            box-sizing: border-box;
+            border: 5px solid #ccc;
+            border-radius: 4px;
+            background-color: #f8f8f8;
+            font-size: 15px;
+            resize: none;
+        }
+        form {
+            margin: auto;
+            margin-top: 100px;
+            width: 50%;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Feedback</h1>
+    <form action="http://www.example.com/comment.php">
+        <p><b>How is my website?</b></p>
+        <textarea name="comments" placeholder="Enter your comments..."></textarea>
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+    <h2><i>Thank you!</i></h2>
+</body>
+</html>
